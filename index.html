@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>NeviGation Bar</title>
+ <style>
+  *{
+   margin: 0;
+   padding: 0;
+  }
+  div{
+   margin-right: 20px;
+  }
+  li:hover{
+   color:purple;
+   background-color: red;
+   shape-outside: margin-box;
+  
+  }
+  header{
+   margin-top: 5px;
+   background-image: url(./2.jpeg);
+   height: 100vh;
+   background-position: 0%;
+   background-size: auto;
+   background-attachment: fixed;
+   background-clip: border-box;
+  }
+  header ul{
+   float: right;
+   margin-top: 5px;
+   margin-top: 10px;
+  }
+  header ul li{
+   display: inline;
+   padding: 4px;
+   color: #fff;
+   font-size: smaller;
+   border: 1px solid #fff;
+   tr
+  }
+  .logo img{
+   float: left;
+   width: 40px;
+   height: 40px;
+  }
+  .mid {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   color: #fff;
+  }
+  .button {
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+  }
+ .btn {
+   border: 1px solid #fff;
+   color: #fff;
+   padding: 5px;
+   font-size: small;
+  }
+  .btn:hover{
+   color: blue;
+   background-color: yellow;
+  }
+  .logo img {
+   border: 1px solid blue;
+   border-radius: 3px;
+   height: auto;
+   width:7vw;
+  }
+ </style>
+</head>
+<body>
+     <header>
+      <div class="main">
+       <div class="logo">
+        <a href="#"><img src="./1.jpeg" alt=""></a>
+       </div>
+      <ul>
+       <li>Home</li>
+       <li>Services</li>
+       <li>Sing UP</li>
+       <li>Login</li>
+      </ul>
+     </div>
+     <div>
+      <h2 class="mid">I am here to Help </h2>
+     </div>
+     <div class="button">
+       <a href="#" class="btn">Watch Video</a>
+       <a href="#" class="btn">Leran More</a>
+     </div>
+    </header>
+    
+</body>
+</html>
